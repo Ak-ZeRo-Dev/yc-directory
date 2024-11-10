@@ -25,7 +25,7 @@ export default async function page({
 }) {  
   const { id } = await params;
 
-  const [post, select: editorData] = await Promise.all([
+  const [post, { select: editorPosts }] = await Promise.all([
     client.fetch(STARTUP_BY_ID_QUERY, { id }),
     client.fetch(PLAYLIST_BY_SLUG_QUERY, { slug: "editor-picks-new" }),
   ]);
