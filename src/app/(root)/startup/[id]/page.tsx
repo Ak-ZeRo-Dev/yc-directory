@@ -19,9 +19,9 @@ const md = markdownit();
 export const experimental_ppr = true;
 
 export default async function Page ({ params }: { params: Promise<{ id: string }> }) => {
-  const id = (await params).id;
+  const { id } = await params;
 
-  const [post, editorData] = await Promise.all([
+  const [post, select: editorData] = await Promise.all([
     client.fetch(STARTUP_BY_ID_QUERY, { id }),
     client.fetch(PLAYLIST_BY_SLUG_QUERY, { slug: "editor-picks-new" }),
   ]);
