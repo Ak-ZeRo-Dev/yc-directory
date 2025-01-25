@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# YC Directory  
 
-## Getting Started
+**[yc-directory-virid.vercel.app](https://yc-directory-virid.vercel.app/)**  
+A modern web application for managing and showcasing content, built with **Next.js 15**, **Sanity**, and **TypeScript**.  
 
-First, run the development server:
+---  
+
+## 🚀 Features  
+
+- 🛠️ **Powered by Next.js 15** for a cutting-edge developer experience.  
+- 📖 **Markdown support** with a rich-text editor powered by Sanity and Markdown plugins.  
+- 🌟 **Dynamic content rendering** using Sanity's CMS.  
+- 🛠️ **Turbocharged development** with Turbopack for blazing-fast builds.  
+- 🔄 **Authentication-ready** with NextAuth 5 integration.  
+- 📸 **Image optimization** using Sanity's Image API.  
+- 🎨 **Customizable UI components** with TailwindCSS and Radix UI.  
+- 💡 **SEO-friendly** with customizable slugs via slugify.  
+- ✅ **Type-safe development** with Zod and TypeScript.  
+
+---  
+
+## 🛠️ Technologies  
+
+| **Category**        | **Tools/Libraries**                                     |
+| ------------------- | ------------------------------------------------------- |
+| **Framework**       | `Next.js 15`, `React 19`                                |
+| **CMS**             | `Sanity`, `Sanity Vision`, `Sanity Markdown Plugin`     |
+| **Styling**         | `TailwindCSS`, `Styled Components`, `Lucide React`      |
+| **Auth**            | `NextAuth`                                              |
+| **Utilities**       | `Markdown-it`, `Slugify`, `Zod`                         |
+| **Linting**         | `ESLint`, `Next.js ESLint Config`                       |
+| **Editor**          | `UIW React Markdown Editor`                             |
+
+---  
+
+## 📦 Installation  
+
+To get started with this project locally, follow these steps:  
+
+### Clone the repository:  
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/yourusername/yc-directory.git
+cd yc-directory
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Install Dependencies:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+pnpm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Run the development server:
 
-## Learn More
+```bash
+pnpm dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ✍️ Author
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Abdul Rahman Mahmoud Saeed Muhammad Al-Kurdi**
+**_Ak-ZeRo_**
 
-## Deploy on Vercel
+- 💼 **[Portfolio](https://ak-zero.vercel.app)**
+- 📧 **[abdulrahman.mahmoud.alkurdi@gmail.com](mailto:abdulrahman.mahmoud.alkurdi@gmail.com)**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Happy coding! 🚀
