@@ -61,10 +61,12 @@ pnpm dev
 ## ✍️ Author
 
 **Abdul Rahman Mahmoud Saeed Muhammad Al-Kurdi**
-**_Ak-ZeRo_**
 
-- 💼 **[Portfolio](https://ak-zero.vercel.app)**
-- 📧 **[abdulrahman.mahmoud.alkurdi@gmail.com](mailto:abdulrahman.mahmoud.alkurdi@gmail.com)**
+*_*Ak-ZeRo*_*
+
+- 💼 **[Portfolio](https://ak-zero.vercel.app)**  
+- 📧 **[abdulrahman.mahmoud.alkurdi@gmail.com	](mailto:abdulrahman.mahmoud.alkurdi@gmail.com	)**  
+
 
 ---
 
